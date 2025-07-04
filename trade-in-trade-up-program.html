@@ -188,7 +188,7 @@
 
         <!-- step 1  -->
         <div class="col-12 pe-lg-4">
-          <h4 class="font-25 mb-md-5 mb-4">Step 1: Input Your Information</h4>
+          <h4 class="font-25 mb-md-5 mb-4">All fields marked with * are required and must be filled.</h4>
 
           <div class="contact-formm px-lg-2">
             <form>
@@ -200,9 +200,8 @@
                     <input type="text" class="form-control" id="firstName" placeholder="First Name" required />
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 align-self-end">
                   <div class="mb-3">
-                    <label for="lastName" class="form-label d-md-inline d-none">&nbsp;</label>
                     <input type="text" class="form-control" id="lastName" placeholder="Last Name" required />
                   </div>
                 </div>
@@ -256,7 +255,7 @@
 
               <!-- Model of Returned Device -->
               <div class="mb-3">
-                <label for="model" class="form-label">Model of Returned Device</label>
+                <label for="model" class="form-label">Model of Returned Device <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="model" placeholder="" />
               </div>
 
@@ -264,12 +263,12 @@
                 <div class="col-md-6">
                   <!-- Proof of Purchase Upload -->
                   <div class="mb-3">
-                    <label class="form-label">Provide Proof of Purchase</label>
+                    <label class="form-label">Provide Proof of Purchase <span class="text-danger">*</span></label>
                     <div
                       class="py-4 rounded d-flex flex-column align-items-center justify-content-center browseFiles position-relative">
-                      <div class="mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="64"
-                          viewBox="0 0 64 64" width="64">
+                      <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64"
+                          viewBox="0 0 64 64" width="48">
                           <g id="Guide" />
                           <g id="Layer_1">
                             <g fill="#222">
@@ -295,12 +294,12 @@
                 <div class="col-md-6">
                   <!-- Image of Current Product Upload -->
                   <div class="mb-3">
-                    <label class="form-label">Provide Image of Current Product</label>
+                    <label class="form-label">Provide Image of Current Product <span class="text-danger">*</span></label>
                     <div
                       class="py-4 rounded d-flex flex-column align-items-center justify-content-center browseFiles position-relative">
-                      <div class="mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="64"
-                          viewBox="0 0 64 64" width="64">
+                      <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64"
+                          viewBox="0 0 64 64" width="48">
                           <g id="Guide" />
                           <g id="Layer_1">
                             <g fill="#222">
@@ -311,7 +310,7 @@
                           </g>
                         </svg>
                       </div>
-                      <strong class="mb-1">Browse Files</strong>
+                      <strong class="">Browse Files</strong>
                       <span class="text-muted mb-2" style="font-size: 0.95rem;">Drag and drop files here</span>
                       <input type="file"
                         class="form-control border-0 shadow-none position-absolute top-0 start-0 w-100 h-100"
@@ -324,16 +323,22 @@
                 </div>
               </div>
 
-              <!-- Serial Number -->
-              <div class="mb-3">
-                <label for="serial" class="form-label">Serial Number of Returned Device</label>
-                <input type="text" class="form-control" id="serial" />
-              </div>
+              <div class="row mb-2">
+                <div class="col-md-6">
+                  <!-- Serial Number -->
+                  <div class="mb-3">
+                    <label for="serial" class="form-label">Serial Number of Returned Device <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="serial" />
+                  </div>
+                </div>
 
-              <!-- Detailed Description -->
-              <div class="mb-3">
-                <label for="description" class="form-label">Detailed Description for Trade Program</label>
-                <textarea class="form-control" id="description" rows="3"></textarea>
+                <div class="col-md-6">
+                  <!-- Detailed Description -->
+                  <div class="mb-3">
+                    <label for="description" class="form-label">Detailed Description for Trade Program <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="description" />
+                  </div>
+                </div>
               </div>
 
               <!-- reCAPTCHA -->
@@ -386,7 +391,7 @@
 
               <!-- Submit Button -->
               <div class="col-lg-12 mt-lg-5 py-md-5 py-4 border-top d-flex justify-content-center">
-                <button type="submit" class="btn btn-primary containedBtn ">
+                <button type="submit" class=" containedBtn ">
                   Submit
                 </button>
               </div>

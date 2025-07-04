@@ -1334,9 +1334,9 @@ a.play-btn {
 }
 
 .browseFiles {
-    border: 2px dashed var(--blue);
+    border: 1px dashed var(--blue);
     border-radius: 8px;
     width: 100%;
-    cursor: crosshair;
+    cursor: pointer;
     background-color: #e6f5ff;
 }
