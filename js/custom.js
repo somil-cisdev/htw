@@ -1,8 +1,3 @@
-
-
-
-
-
 // ----------------- Owl Slider JS Start -----------------
 
 $(document).ready(function () {
