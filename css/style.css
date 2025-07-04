@@ -1273,8 +1273,62 @@ a.play-btn {
 }
 
 
-.blog-postdtls .blog-img{
-    height: 450px;
+.blog-postdtls .blog-img {
+    height: 500px;
     object-fit: cover;
 }
+
 /* blog css end  */
+
+
+
+
+
+
+.agreement-box {
+    border: 1px solid var(--green);
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control,
+.form-select {
+    font-size: 0.95rem;
+}
+
+.section-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #004085;
+}
+
+.form-logo {
+    object-fit: contain;
+    width: 100%;
+    height: 120px;
+}
+
+
+#signatureCanvas {
+    border: 2px dashed var(--blue);
+    border-radius: 8px;
+    width: 100%;
+    height: 140px;
+    cursor: crosshair;
+    background-color: #e6f5ff;
+}
+
+.no-focus-border:focus {
+    box-shadow: none;
+    border-color: transparent;
+    outline: none;
+}
+
+.maxw-400{
+    max-width: 400px;
+}

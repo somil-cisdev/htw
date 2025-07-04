@@ -54,20 +54,43 @@ function myFunction() {
   }
 }
 
-
-
 // ----------------- Sticky header Js end -----------------
 
 
+// Signature
 
+const canvas = document.getElementById('signatureCanvas');
+    const ctx = canvas.getContext('2d');
+    let isDrawing = false;
 
+    canvas.addEventListener('mousedown', e => {
+      isDrawing = true;
+      ctx.beginPath();
+      ctx.moveTo(e.offsetX, e.offsetY);
+    });
 
+    canvas.addEventListener('mousemove', e => {
+      if (isDrawing) {
+        ctx.lineTo(e.offsetX, e.offsetY);
+        ctx.stroke();
+      }
+    });
 
+    canvas.addEventListener('mouseup', () => {
+      isDrawing = false;
+    });
 
+    function clearSignature() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }
 
+    function saveSignature() {
+      const dataURL = canvas.toDataURL();
+      console.log('Saved Signature:', dataURL);
+      alert("Signature saved! (check console)");
+    }
 
-
-
-
-
-
+    window.addEventListener('load', () => {
+      canvas.width = canvas.offsetWidth;
+      canvas.height = canvas.offsetHeight;
+    });
