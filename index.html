@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet" />
+  <link href="./css/owl.carousel.min.css" rel="stylesheet" />
+  <link href="./css/responsive.css" rel="stylesheet" />
+  <link href="./css/all.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>:: Home ::</title>
+</head>
+
+<body class="lato-font">
+  <!--################# Header #################-->
+  <header class="header" id="header">
+    <nav class="navbar navbar-expand-xxl">
+      <div class="container container-1460">
+        <!-- Mobile Logo (Visible on small screens) -->
+        <a class="navbar-brand p-0 m-0 d-block d-xxl-none" href="#">
+          <img class="img-fluid" src="./images/logo.svg" alt="logo" />
+        </a>
+
+        <!-- Offcanvas Toggle Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!-- Desktop Navbar -->
+        <div class="collapse navbar-collapse d-none d-xxl-flex" id="navbarTogglerDemo01">
+          <!-- Desktop Logo (Hidden on small screens) -->
+          <a class="navbar-brand p-0 m-0 d-none d-lg-block" href="#">
+            <img class="img-fluid" src="./images/logo.svg" alt="logo" />
+          </a>
+
+          <!-- Navigation Menu -->
+          <!-- <ul class="navbar-nav ms-auto menu-list">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Our Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Products</a></li>
+                                <li><a class="dropdown-item" href="#">Medical Devices</a></li>
+                                <li><a class="dropdown-item" href="#">Wellness Consulting & Coaching</a></li>
+                            </ul>
+                        </li> -->
+          <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Medical Devices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Wellness Consulting & Coaching</a>
+                        </li> -->
+          <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Forms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="containedBtn" href="#"> Appointment</a>
+                        </li>
+                    </ul> -->
+
+          <ul class="navbar-nav ms-auto menu-list">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="wellness-coaching.html">Wellness Coaching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="consulting.html">Consulting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Medical Devices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="containedBtn" href="#"> Appointment</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Offcanvas Sidebar (Mobile Menu) -->
+        <!-- <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                          
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Wellness Coaching</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Consulting</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Medical Devices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Forms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="containedBtn" href="#"> Appointment</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Medical Devices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="wellness-coaching.html">Wellness Coaching</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="consulting.html">Consulting</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="containedBtn" href="#"> Appointment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End Offcanvas Sidebar -->
+      </div>
+    </nav>
+  </header>
+  <!--################# Header #################-->
+
+  <!--################# Hero Section #################-->
+
+  <section class="hero-section hasVideo newHero position-relative">
+    <div class="container container-1460">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="heroSectionContent">
+            <h1 class="font-65">
+              Optimizing Wellness with Advanced Technology
+            </h1>
+            <p class="my-4">
+              HealthTech Wellness helps companies market FDA cleared medical
+              devices to healthcare practitioners to improve patient health
+              outcomes
+            </p>
+            <a href="#" class="containedBtn blueBtn">Explore Our Solutions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <video autoplay loop muted playsinline preload="metadata">
+      <source src="./images/HTW-video.mp4" type="video/mp4" />
+      <p>
+        Your browser does not support the video tag. Please update your
+        browser.
+      </p>
+    </video>
+  </section>
+
+  <!--################# Hero Section #################-->
+
+  <!--################# Img Card Section #################-->
+
+  <section class="imgTxt secPadding vectorBg leftVectorBg vectorbg-two">
+    <div class="container container-1460">
+      <div class="row justify-content-between">
+        <div class="col-lg-5" data-aos="fade-up" data-aos-duration="2000">
+          <div class="imgSection">
+            <img class="img-fluid" src="./images/new-imag-coaching.png" alt="cardImg" />
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="cardContent">
+            <h4 class="font-25 text-uppercase">Our services</h4>
+            <h2 class="font-50 mb-3">Wellness Coaching</h2>
+            <p class="light-black">
+              We offer personalized wellness coaching services focusing on the
+              physical, mental, and emotional well-being of our clientele. Our
+              coaches use the latest science-backed methodologies and ancient
+              healing modalities to create personalized health programs to
+              support our clients path towards sustainable lifestyle change.
+            </p>
+            <ul class="mt-2 px-3">
+              <li>Personalized Plans</li>
+              <li>Holistic Approach</li>
+              <li>Technology Integration</li>
+              <li>Certified Coaches</li>
+              <li>Continuous Support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- <div
+          class="row justify-content-between flex-column-reverse flex-lg-row mt-5 pt-5"
+        >
+          <div class="col-lg-6">
+            <div class="cardContent">
+              <h4 class="font-25 text-uppercase">Our Services</h4>
+              <h2 class="font-50 mb-3">Practitioner & Clinic Consulting</h2>
+              <p class="light-black">
+                As inflammation, pain, and stress experts, we extend our
+                expertise, to provide healthcare practitioners options for FDA
+                cleared medical devices that impact the health of the (1) minor
+                muscle pain (2) joint pain and stiffness (3) joint pain
+                associated with arthritis (4) muscle spasms (5) minor strains
+                and sprains (6) muscle relaxation, and (7) temporary increase of
+                local circulation.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="imgSection">
+              <img
+                class="img-fluid"
+                src="./images/home-card.jpg"
+                alt="cardImg"
+              />
+            </div>
+          </div>
+        </div> -->
+
+      <div class="row flex-column-reverse flex-lg-row mt-5 pt-5 ">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="cardContent pe-2">
+            <h4 class="font-25 text-uppercase">Our Services</h4>
+            <h2 class="font-50 mb-3">Health & Beauty</h2>
+            <p class="light-black">
+              A crucial aspect of health & beauty is skin care. It involves a
+              variety of practices and products aimed at maintaining and
+              improving the skin's health and appearance. This includes
+              internal factors like hydration and microcirculation, which
+              increases the delivery of oxygen, nutrients, removal of waste
+              products, and lymphatic drainage. There are also exterior
+              factors like cleansing, moisturizing, protecting against sun
+              damage, addressing specific skin conditions, and using products
+              like serums, exfoliants, and masks. All these factors (and more)
+              contribute to improving overall health and natural beauty.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+          <div class="imgSection text-lg-end">
+            <img class="img-fluid" src="./images/aging.jpg" alt="cardImg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--################# Img Card Section #################-->
+
+  <!--################# card Section #################-->
+
+  <section class="cardSection secPadding lightBg vectorBg">
+    <div class="container container-1460">
+      <div class="titleSec text-center mb-5">
+        <h4 class="font-25 text-uppercase">About Us</h4>
+        <h2 class="font-50">Consulting</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="cardImg">
+            <img class="img-fluid" src="./images/card1.jpg" alt="cardImg" />
+          </div>
+
+          <div class="cardTitle my-3 text-center">
+            <h4>Medical Device & A.I Technologies</h4>
+          </div>
+
+          <div class="cardText text-center">
+            <p class="light-black">
+              We help companies market the most advanced medical devices and
+              A.I. technologies to healthcare practitioners to improve patient
+              health outcomes and to increase your bottom line. We help our
+              customers and healthcare practitioners internationally.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="cardImg">
+            <img class="img-fluid" src="./images/card2.jpg" alt="cardImg" />
+          </div>
+
+          <div class="cardTitle my-3 text-center">
+            <h4>Medical Clinic Sales</h4>
+          </div>
+
+          <div class="cardText text-center">
+            <p class="light-black">
+              HealthTech Wellness consultants (or healthcare consultants)
+              analyze and advise healthcare organizations, practitioners, and
+              consumer on how to improve health outcomes, daily operations,
+              and financial performance. 
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="cardImg">
+            <img class="img-fluid" src="./images/card3.jpg" alt="cardImg" />
+          </div>
+
+          <div class="cardTitle my-3 text-center">
+            <h4>Sales & Marketing Support</h4>
+          </div>
+
+          <div class="cardText text-center">
+            <p class="light-black">
+              We help healthcare organizations who are facing increasing
+              pressures to improve quality, reduce costs, and adapt to rapid
+              changes in the healthcare industry. We provide expertise and
+              guidance to help organizations navigate their business
+              development challenges.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--################# card Section #################-->
+
+  <!--################# Img Card Section #################-->
+
+  <section class="imgTxt secPadding ">
+    <div class="container container-1460">
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+          <div class="imgSection">
+            <img class="img-fluid" src="./images/card6.png" alt="cardImg" />
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="cardContent">
+            <h4 class="font-25 text-uppercase">AVACEN </h4>
+            <h2 class="font-50 mb-3">Medical devices</h2>
+            <p class="light-black">
+              As inflammation, pain, and stress experts, we extend our
+              expertise to provide healthcare practitioners and wellness
+              clinics additional treatment options to help their patients
+              achieve and maintain optimal wellness. These science-backed,
+              FDA-cleared medical devices impact overall health and wellness
+              by targeting the root cause of illness and disease. and are safe
+              for any age- from 2 to 102!
+            </p>
+            <a href="#" class="containedBtn blueBtn blue-border-btn mt-md-4 mt-3">Explore Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--################# Img Card Section #################-->
+
+  <!--################# Img Card Section #################-->
+
+  <!--################# Img Card Section #################-->
+
+  <!--################# Testimonial Section #################-->
+  <section class="testimonial-sec secPadding">
+    <div class="container position-relative container-1460">
+      <div class="row">
+        <div class="col-lg-3 pb-lg-0 pb-4">
+          <div class="titleSec mb-1 d-flex flex-column justify-content-center h-100 text-white">
+            <h4 class="font-25 text-uppercase">What Our Clients Say</h4>
+            <h2 class="font-50">Testimonials</h2>
+            <div class="custom-nav d-flex justify-content-start mt-4">
+              <button class="custom-prev-btn">
+                <img src="./images/left.svg" alt="left arrow" class="img-fluid" />
+              </button>
+              <button class="custom-next-btn">
+                <img src="./images/right.svg" alt="right arrow" class="img-fluid" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9 ps-lg-5">
+          <div class="testimonialSlider owl-carousel owl-theme">
+            <div class="testimonialCard">
+              <div class="cardProfile mb-4">
+                <div class="ttImg">
+                  <img class="img-fluid" src="./images/testimonial1.png" alt="ttImg" />
+                </div>
+                <div class="cardContent">
+                  <h5>Esther Hills</h5>
+                  <p class="light-black">Lead Intranet Technician</p>
+                </div>
+              </div>
+              <div class="cardText">
+                <p class="light-black">
+                  Omnis totam molestiae delectus nemo alias nesciunt harum et.
+                  Nobis dolorum excepturi quod vel. Sunt est qui ab non
+                  dolores repellat rem impedit dolores. Ut ea rerum cum eum.
+                  Alias dolores tempore illo accusantium est et voluptatem
+                  voluptas.
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonialCard">
+              <div class="cardProfile mb-4">
+                <div class="ttImg">
+                  <img class="img-fluid" src="./images/testimonial2.png" alt="ttImg" />
+                </div>
+                <div class="cardContent">
+                  <h5>Ethel Johnston</h5>
+                  <p class="light-black">Human Directives Director</p>
+                </div>
+              </div>
+              <div class="cardText">
+                <p class="light-black">
+                  Fuga et debitis numquam omnis sed explicabo rem. Temporibus
+                  aut earum harum sint enim quia sit. Odit blanditiis illum
+                  amet doloribus adipisci corrupti explicabo. Qui non omnis
+                  eum consequatur voluptas aut ut dolor aut.
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonialCard">
+              <div class="cardProfile mb-4">
+                <div class="ttImg">
+                  <img class="img-fluid" src="./images/testimonial1.png" alt="ttImg" />
+                </div>
+                <div class="cardContent">
+                  <h5>Esther Hills</h5>
+                  <p class="light-black">Lead Intranet Technician</p>
+                </div>
+              </div>
+              <div class="cardText">
+                <p class="light-black">
+                  Omnis totam molestiae delectus nemo alias nesciunt harum et.
+                  Nobis dolorum excepturi quod vel. Sunt est qui ab non
+                  dolores repellat rem impedit dolores. Ut ea rerum cum eum.
+                  Alias dolores tempore illo accusantium est et voluptatem
+                  voluptas.
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonialCard">
+              <div class="cardProfile mb-4">
+                <div class="ttImg">
+                  <img class="img-fluid" src="./images/testimonial2.png" alt="ttImg" />
+                </div>
+                <div class="cardContent">
+                  <h5>Ethel Johnston</h5>
+                  <p class="light-black">Human Directives Director</p>
+                </div>
+              </div>
+              <div class="cardText">
+                <p class="light-black">
+                  Fuga et debitis numquam omnis sed explicabo rem. Temporibus
+                  aut earum harum sint enim quia sit. Odit blanditiis illum
+                  amet doloribus adipisci corrupti explicabo. Qui non omnis
+                  eum consequatur voluptas aut ut dolor aut.
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonialCard">
+              <div class="cardProfile mb-4">
+                <div class="ttImg">
+                  <img class="img-fluid" src="./images/testimonial1.png" alt="ttImg" />
+                </div>
+                <div class="cardContent">
+                  <h5>Esther Hills</h5>
+                  <p class="light-black">Lead Intranet Technician</p>
+                </div>
+              </div>
+              <div class="cardText">
+                <p class="light-black">
+                  Omnis totam molestiae delectus nemo alias nesciunt harum et.
+                  Nobis dolorum excepturi quod vel. Sunt est qui ab non
+                  dolores repellat rem impedit dolores. Ut ea rerum cum eum.
+                  Alias dolores tempore illo accusantium est et voluptatem
+                  voluptas.
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonialCard">
+              <div class="cardProfile mb-4">
+                <div class="ttImg">
+                  <img class="img-fluid" src="./images/testimonial2.png" alt="ttImg" />
+                </div>
+                <div class="cardContent">
+                  <h5>Ethel Johnston</h5>
+                  <p class="light-black">Human Directives Director</p>
+                </div>
+              </div>
+              <div class="cardText">
+                <p class="light-black">
+                  Fuga et debitis numquam omnis sed explicabo rem. Temporibus
+                  aut earum harum sint enim quia sit. Odit blanditiis illum
+                  amet doloribus adipisci corrupti explicabo. Qui non omnis
+                  eum consequatur voluptas aut ut dolor aut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!--################# Testimonial Section #################-->
+
+  <!--################# ourArchives Section #################-->
+
+  <section class="ourArchives secPadding vectorBg leftVectorBg vectorbg-two">
+    <div class="container container-1460">
+      <div class="titleSec text-center mb-5">
+        <h2 class="font-50">Latest News & Insights</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="archivesCard">
+            <div class="arCardImg">
+              <img class="img-fluid" src="./images/card8.jpg" alt="cardImg" />
+            </div>
+            <div class="arCardContent">
+              <span class="dateBadge">16th Aug</span>
+              <h5>What is AVACEN and it’s advantages?</h5>
+              <p>By Michael Brown</p>
+              <a href="#x">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="archivesCard">
+            <div class="arCardImg">
+              <img class="img-fluid" src="./images/card9.jpg" alt="cardImg" />
+            </div>
+            <div class="arCardContent">
+              <span class="dateBadge">16th Aug</span>
+              <h5>What is AVACEN and it’s advantages?</h5>
+              <p>By Michael Brown</p>
+              <a href="#x">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="archivesCard">
+            <div class="arCardImg">
+              <img class="img-fluid" src="./images/card10.jpg" alt="cardImg" />
+            </div>
+            <div class="arCardContent">
+              <span class="dateBadge">16th Aug</span>
+              <h5>What is AVACEN and it’s advantages?</h5>
+              <p>By Michael Brown</p>
+              <a href="#x">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--################# ourArchives Section #################-->
+
+  <!-- contact us section  -->
+
+  <section class="imgTxt secPadding lightBg vectorBg">
+    <div class="container container-1460">
+      <div class="row align-items-start">
+        <div class="col-lg-6">
+          <h4 class="font-25 text-uppercase">Our services</h4>
+          <h2 class="font-50 mb-3">Get in touch</h2>
+
+          <div class="contact-form">
+            <form>
+              <div class="mb-3">
+                <label for="fullName" class="form-label visually-hidden">Full Name</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Full Name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label visually-hidden">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label visually-hidden">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary containedBtn">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-lg-0 mt-5">
+          <div class="cardContent">
+            <h4 class="font-25 text-uppercase">Our services</h4>
+            <h2 class="font-50 mb-3">Contact Information</h2>
+            <div class="contactInfo pt-lg-2 mt-4">
+              <ul class="list-unstyled">
+                <li class="d-flex align-items-center mb-4">
+                  <div class="icon me-lg-3 me-sm-2 me-1">
+                    <img src="./images/location.svg" alt="Address Icon" class="img-fluid" />
+                  </div>
+                  <div>
+                    <h5 class="fw-semibold text-dark">Address</h5>
+                    <p class="mb-0">
+                      <a href="https://www.google.com/maps?q=Lorem+ipsum+dolor+sit+amet" target="_blank"
+                        class="text-decoration-none text-dark">
+                        Lorem ipsum dolor sit amet
+                      </a>
+                    </p>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center mb-4">
+                  <div class="icon me-lg-3 me-sm-2 me-1">
+                    <a href="tel:949-478-4048" class="text-decoration-none text-dark"><img src="./images/phone.svg"
+                        alt="Phone Icon" class="img-fluid" /></a>
+                  </div>
+                  <div>
+                    <h5 class="fw-semibold text-dark">Phone Number</h5>
+                    <p class="mb-0">
+                      <a href="tel:949-478-4048" class="text-decoration-none text-dark">949-478-4048</a>
+                    </p>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center">
+                  <div class="icon me-lg-3 me-sm-2 me-1">
+                    <a href="mailto:Brittany@healthtechwellness.com" class="text-decoration-none text-dark">
+                      <img src="./images/mail.svg" alt="Email Icon" class="img-fluid" />
+                    </a>
+                  </div>
+                  <div>
+                    <h5 class="fw-semibold text-dark">Email Address</h5>
+                    <p class="mb-0">
+                      <a href="mailto:Brittany@healthtechwellness.com" class="text-decoration-none text-dark">
+                        Brittany@healthtechwellness.com
+                      </a>
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact us section end  -->
+
+  <!-- Footer section  -->
+
+  <footer class="footer" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500">
+    <div class="container container-1460">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="ftr-logo">
+            <img src="./images/footerLogo.svg" alt="footerLogo" class="img-fluid" />
+          </div>
+          <div class="ftr-desc pe-lg-4 py-3 py-lg-0">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              sed aliquam ygyt neque, quis conseq aliquam ygyt neque, quis
+              conseq.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <h4 class="mb-3 font-16 fw-600">Useful Links</h4>
+          <ul class="ftr-links list-unstyled pt-1 font-16">
+            <li class="ftr-item mb-lg-4 mb-3">
+              <a href="#" class="ftr-link">
+                <img src="./images/dblArrow.svg" alt="link arrow" class="arrow-img img-fluid" />
+                Home
+              </a>
+            </li>
+            <li class="ftr-item mb-lg-4 mb-3">
+              <a href="#" class="ftr-link">
+                <img src="./images/dblArrow.svg" alt="link arrow" class="arrow-img img-fluid" />
+                About
+              </a>
+            </li>
+            <li class="ftr-item mb-lg-4 mb-3">
+              <a href="#" class="ftr-link">
+                <img src="./images/dblArrow.svg" alt="link arrow" class="arrow-img img-fluid" />
+                Medical Devices
+              </a>
+            </li>
+            <li class="ftr-item mb-lg-4 mb-3">
+              <a href="#" class="ftr-link">
+                <img src="./images/dblArrow.svg" alt="link arrow" class="arrow-img img-fluid" />
+                Blog
+              </a>
+            </li>
+            <li class="ftr-item mb-lg-4 mb-3">
+              <a href="#" class="ftr-link">
+                <img src="./images/dblArrow.svg" alt="link arrow" class="arrow-img img-fluid" />
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h4 class="mb-3 font-16 fw-600">Contact</h4>
+          <ul class="ftr-links list-unstyled pt-1 font-16">
+            <li class="ftr-item mb-lg-4 mb-3">
+              <a href="#" class="ftr-link">
+                <img src="./images/mail.svg" alt="link arrow" class="img-fluid" />
+                Brittany@HealthTechWellness.com
+              </a>
+            </li>
+            <li class="ftr-item mb-lg-4 mb-3">
+              <a href="tel:+619-772-1969" class="ftr-link">
+                <img src="./images/phone.svg" alt="link arrow" class="arrow-img img-fluid" />
+                +619-772-1969
+              </a>
+            </li>
+            <li class="ftr-item mb-lg-4 mb-3">
+              <a href="tel:+949-478-4048" class="ftr-link">
+                <img src="./images/phone.svg" alt="link arrow" class="arrow-img img-fluid" />
+                +949-478-4048
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <div class="newsletter mb-3">
+            <h4 class="mb-3 font-16 fw-600">Newsletter</h4>
+            <div class="input-group pt-1">
+              <input type="email" class="form-control ps-3 text-white" placeholder="Your Email" />
+              <span class="input-group-btn">
+                <button class="btn font-18 fw-600 text-white" type="submit">
+                  SEND
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright text-center">
+        <p class="font-14">© 2025 ALL RIGHTS RESERVED. Designed by Wellness Academy USA, LLC.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Footer section  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="./js/custom.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
