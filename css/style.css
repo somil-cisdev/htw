@@ -1332,3 +1332,11 @@ a.play-btn {
 .maxw-400{
     max-width: 400px;
 }
+
+.browseFiles {
+    border: 2px dashed var(--blue);
+    border-radius: 8px;
+    width: 100%;
+    cursor: crosshair;
+    background-color: #e6f5ff;
+}
