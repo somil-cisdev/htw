@@ -1329,7 +1329,7 @@ a.play-btn {
     outline: none;
 }
 
-.maxw-400{
+.maxw-400 {
     max-width: 400px;
 }
 
@@ -1339,4 +1339,42 @@ a.play-btn {
     width: 100%;
     cursor: pointer;
     background-color: #e6f5ff;
+}
+
+
+/* curewave css */
+
+.device-icon i {
+    font-size: 64px;
+    color: var(--blue);
+}
+
+.icon-clrblue {
+    color: var(--blue);
+    font-size: 56px;
+}
+
+.text-clrblue {
+    color: var(--blue);
+}
+
+.bg-blueInfo {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.treatment-border img {
+    width: 80px;
+    padding: 8px;
+}
+
+.youtube-vdo iframe {
+    width: 60%;
+    aspect-ratio: 16 / 9;
+}
+
+.custom-gap {
+    row-gap: 4px;
+    column-gap: 60px;
+    padding: 0 20px !important;
 }

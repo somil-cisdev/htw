@@ -127,7 +127,7 @@
     }
 
     .font-50 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .font-65,
@@ -235,6 +235,14 @@
     .step-number {
         font-size: 24px;
     }
+
+    .youtube-vdo iframe {
+        width: 100%;
+    }
+
+    .device-icon i {
+        font-size: 56px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -255,12 +263,21 @@
     }
 
     .circulatory-lines img {
-        max-width: 360px;
+        max-width: 340px;
     }
 
     .device {
         right: 30px;
         bottom: 50px;
+    }
+
+    .press-overlay {
+        padding: 60px 12px;
+    }
+
+    .press-relesase {
+        font-size: 28px;
+        letter-spacing: 0.5px;
     }
 }
 
@@ -276,5 +293,9 @@
 
     .circulatory-lines img {
         max-width: 320px;
+    }
+
+    .press-relesase {
+        font-size: 24px;
     }
 }
